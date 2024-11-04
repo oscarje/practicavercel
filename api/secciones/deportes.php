@@ -4,8 +4,8 @@ SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
 *****/
 
 $deportes = [
-    "titulo" => "El Ascenso del Deporte Electrónico",
+    "titulo" => "Aplicaciones en la Nube para Entrenamiento Deportivo",
     "autor" => "Carlos Ruiz",
-    "resumen" => "Los deportes electrónicos ganan popularidad, atrayendo a millones de espectadores y generando grandes ingresos.",
+    "resumen" => "Las plataformas en la nube están revolucionando el entrenamiento y análisis de datos en el deporte, mejorando el rendimiento de los atletas.",
 ];
 ?>
