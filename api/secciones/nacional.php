@@ -4,8 +4,8 @@ SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
 *****/
 
 $nacional = [
-    "titulo" => "Reformas Sociales en el País",
+    "titulo" => "Iniciativas Nacionales en la Nube",
     "autor" => "Carla Fernández",
-    "resumen" => "El gobierno anuncia nuevas reformas sociales para mejorar la calidad de vida de los ciudadanos.",
+    "resumen" => "En el país, empresas y gobiernos están adoptando aplicaciones en la nube para optimizar servicios y operaciones.",
 ];
 ?>
