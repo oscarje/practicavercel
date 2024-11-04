@@ -4,8 +4,8 @@ SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
 *****/
 
 $git = [
-    "titulo" => "Git: La Herramienta Esencial para Desarrolladores",
+    "titulo" => "Git y la Nube: Una Combinación Esencial",
     "autor" => "Ricardo Sánchez",
-    "resumen" => "Git se ha convertido en una herramienta indispensable para el desarrollo colaborativo en proyectos de software.",
+    "resumen" => "Git ha facilitado el desarrollo colaborativo, especialmente cuando se combina con soluciones de almacenamiento en la nube.",
 ];
 ?>
