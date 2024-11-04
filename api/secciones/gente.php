@@ -4,8 +4,8 @@ SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
 *****/
 
 $gente = [
-    "titulo" => "Historias Inspiradoras de Superación",
+    "titulo" => "Personas que Están Cambiando la Nube",
     "autor" => "Mariana Silva",
-    "resumen" => "Personas alrededor del mundo comparten sus historias de superación y éxito personal en tiempos difíciles.",
+    "resumen" => "Historias de innovadores y líderes en el campo de la tecnología en la nube que están marcando la diferencia.",
 ];
 ?>
