@@ -4,8 +4,8 @@ SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
 *****/
 
 $tecnologia = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+    "titulo" => "Innovaciones en la Nube para 2024",
+    "autor" => "Camila Ríos",
+    "resumen" => "Las nuevas tecnologías en la nube están impulsando avances en IA, almacenamiento y procesamiento de datos.",
 ];
 ?>
