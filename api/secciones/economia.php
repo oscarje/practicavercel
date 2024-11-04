@@ -4,8 +4,8 @@ SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
 *****/
 
 $economia = [
-    "titulo" => "Perspectivas Económicas para el 2024",
+    "titulo" => "El Impacto Económico de la Nube en 2024",
     "autor" => "Ana López",
-    "resumen" => "Expertos en economía comparten sus previsiones para el próximo año, destacando los sectores con mayor potencial de crecimiento.",
+    "resumen" => "Las aplicaciones en la nube están impulsando la economía digital, facilitando el crecimiento de pequeñas y medianas empresas.",
 ];
 ?>
