@@ -1,0 +1,72 @@
+------ creamos nuetra maquina virtual y ejecutamos estos comandos para instalar docker -------
+
+sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+sudo apt update
+
+sudo apt install docker-ce -y
+
+sudo systemctl status docker
+
+sudo usermod -aG docker $USER
+
+-- para ejecutar docker ---
+
+
+docker -v
+
+docker images
+
+docker run hello-world
+
+docker ps -a
+
+sudo docker run -d -P --name=apache-1 bitnami/apache
+
+sudo docker ps -a <- buscamos en ports copiamos la ip externa de la maquina virtual y el puerto de salida y deveria correr.
+
+sudo docker exec -it /name/ /bin/bash
+
+cd /opt/bitnami/apache2/htdocs
+
+echo '<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apache en docker</title>
+</head>
+<body>
+    <h1>¡Hola Mundo!</h1>
+    <h2>Aplicaciones en la nube</h2>
+    <h3>Universidad Nacional del Santa</h3>
+</body>
+</html>' > index.html
+
+-- Para crear una copia de imagen --
+
+sudo mkdir /name/
+
+cd /name/
+
+sudo nano index.html <- poner lo que se quiere mostrar html
+
+sudo nano Dockerfile
+
+FROM bitnami/apache
+COPY index.html /apt/bitnami/name/htdocs/index.html
+
+sudo docker build -t osbenites63/(name_carpeta) .
+
+sudo docker images
+
+sudo docker run osbenites63/(name_carpeta)
+
+sudo docker ps -a 
+
+
+
